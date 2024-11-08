@@ -30,8 +30,8 @@ class LeitorPDF:
             print('---------------------------------------------------------------------------')
             print(f"Texto do arquivo {nomeArquivo}:\n{text}\n")
 
-caminhoDaPasta = 'C:/Users/Lucas Hack/Desktop/trabalho de ciência de dados/PDFs/'
+# caminhoDaPasta = 'C:/Users/Lucas Hack/Desktop/trabalho de ciência de dados/PDFs/'
 
-leitor = LeitorPDF(caminhoDaPasta)
+# leitor = LeitorPDF(caminhoDaPasta)
 
-leitor.exibirTextoPdf()
+# leitor.exibirTextoPdf()
