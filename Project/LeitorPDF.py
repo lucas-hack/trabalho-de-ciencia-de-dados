@@ -22,7 +22,7 @@ class LeitorPDF:
             text = page.extract_text()
         return text
     
-    # exibe o texto que se encontra na página
+    # exibe o texto que se encontra na página em todos os PDS
     def exibirTextoPdf(self):
         arquivoPdf = self.listarPdfs()
         for nomeArquivo in arquivoPdf:
@@ -30,8 +30,3 @@ class LeitorPDF:
             print('---------------------------------------------------------------------------')
             print(f"Texto do arquivo {nomeArquivo}:\n{text}\n")
 
-# caminhoDaPasta = 'C:/Users/Lucas Hack/Desktop/trabalho de ciência de dados/PDFs/'
-
-# leitor = LeitorPDF(caminhoDaPasta)
-
-# leitor.exibirTextoPdf()
