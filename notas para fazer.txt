@@ -1,0 +1,5 @@
+Ver o pq na 45 está listando 21 e 8 no código sendo que tem na vdd 22 e 7
+
+na 38 está listando 15 e 5 mas na vdd tem 16 e 6
+
+e na 44 está listando certo

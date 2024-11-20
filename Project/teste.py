@@ -1,15 +1,8 @@
-from LeitorPDF import LeitorPDF 
-from TratarDados import TratarDados
+from TratarDados import TratarDados  # Importa a classe TratarDados
 
-# Instanciando a classe LeitorPDF
-leitor = LeitorPDF("C:/Users/Lucas Hack/Desktop/trabalho de ciência de dados/PDFs")
+# Instancia a classe TratarDados com o caminho da pasta
+dadosTratados = TratarDados("C:/Users/Lucas Hack/Desktop/trabalho de ciência de dados/PDFs")
 
-# Armazenando o que foi encontrado quando lido o PDF
-textoPdf = leitor.lerArquivo("OSs38.pdf")
-
-# Instância da classe TratarDados
-dadosTratados = TratarDados()
-
-# Chamando a função mostrarDadosTratados com o texto extraído do PDF
-dadosTratados.mostrarDadosTratados(textoPdf)
+# Exibe os dados tratados de todos os PDFs
+dadosTratados.mostrarDadosTratadosDeTodos()
 
