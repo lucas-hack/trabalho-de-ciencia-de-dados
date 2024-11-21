@@ -2,7 +2,7 @@ import re
 from LeitorPDF import LeitorPDF
 from Desenvolvedores import Desenvolvedores
 
-
+# é feita uma herança para pegar todos os métodos de LeitorPDF
 class TratarDados(LeitorPDF):
     def __init__(self, caminhoPasta):
         super().__init__(caminhoPasta)
